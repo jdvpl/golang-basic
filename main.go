@@ -8,7 +8,8 @@ import (
 
 func main() {
 	variables.ShowIntegers()
-	fmt.Println(variables.Amount)
 	variables.ShowStrings()
-	fmt.Println(variables.Amount)
+
+	status, text := variables.ConvertToStrings(10)
+	fmt.Println(status, text)
 }
