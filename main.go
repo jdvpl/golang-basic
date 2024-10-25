@@ -2,6 +2,7 @@ package main
 
 import (
 	"go.mod/excersices"
+	"go.mod/files"
 )
 
 func main() {
@@ -15,5 +16,8 @@ func main() {
 	// number, text := excersices.ConvertToNumber("110")
 	// fmt.Println(number, text)
 	// scannindata.GetingDataFromKeyboard()
-	excersices.TableMultiplication()
+	text := excersices.TableMultiplication()
+	files.AddDataToFile(text)
+
+	files.ReadFile()
 }
