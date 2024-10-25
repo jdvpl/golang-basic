@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go.mod/bucles"
+	"go.mod/excersices"
 )
 
 func main() {
@@ -15,5 +15,5 @@ func main() {
 	// number, text := excersices.ConvertToNumber("110")
 	// fmt.Println(number, text)
 	// scannindata.GetingDataFromKeyboard()
-	bucles.For()
+	excersices.TableMultiplication()
 }
