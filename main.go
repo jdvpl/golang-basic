@@ -1,6 +1,8 @@
 package main
 
-import scannindata "go.mod/scanninData"
+import (
+	"go.mod/bucles"
+)
 
 func main() {
 	// variables.ShowIntegers()
@@ -12,5 +14,6 @@ func main() {
 
 	// number, text := excersices.ConvertToNumber("110")
 	// fmt.Println(number, text)
-	scannindata.GetingDataFromKeyboard()
+	// scannindata.GetingDataFromKeyboard()
+	bucles.For()
 }
