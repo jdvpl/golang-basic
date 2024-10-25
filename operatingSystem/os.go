@@ -1,4 +1,4 @@
-package operatinSystem
+package operatingSystem
 
 import (
 	"fmt"

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	operatinSystem "go.mod/os"
+	"go.mod/operatingSystem"
 	"go.mod/variables"
 )
 
@@ -13,5 +13,5 @@ func main() {
 
 	status, text := variables.ConvertToStrings(10)
 	fmt.Println(status, text)
-	operatinSystem.GetOS()
+	operatingSystem.GetOS()
 }
