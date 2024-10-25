@@ -1,21 +1,16 @@
 package main
 
-import (
-	"fmt"
-
-	"go.mod/excersices"
-	"go.mod/operatingSystem"
-	"go.mod/variables"
-)
+import scannindata "go.mod/scanninData"
 
 func main() {
-	variables.ShowIntegers()
-	variables.ShowStrings()
+	// variables.ShowIntegers()
+	// variables.ShowStrings()
 
-	status, text := variables.ConvertToStrings(10)
-	fmt.Println(status, text)
-	operatingSystem.GetOS()
+	// status, text := variables.ConvertToStrings(10)
+	// fmt.Println(status, text)
+	// operatingSystem.GetOS()
 
-	number, text := excersices.ConvertToNumber("110")
-	fmt.Println(number, text)
+	// number, text := excersices.ConvertToNumber("110")
+	// fmt.Println(number, text)
+	scannindata.GetingDataFromKeyboard()
 }
