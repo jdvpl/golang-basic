@@ -1,6 +1,10 @@
 package main
 
-import "go.mod/functions"
+import (
+	"fmt"
+
+	"go.mod/functions"
+)
 
 func main() {
 	// variables.ShowIntegers()
@@ -17,5 +21,5 @@ func main() {
 	// files.AddDataToFile(text)
 
 	// files.ReadFile()
-	functions.CallClosure()
+	fmt.Println(functions.Factorial(200))
 }
