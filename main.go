@@ -1,8 +1,6 @@
 package main
 
-import (
-	"go.mod/arrays_slices"
-)
+import "go.mod/maps"
 
 func main() {
 	// variables.ShowIntegers()
@@ -20,6 +18,5 @@ func main() {
 
 	// files.ReadFile()
 	// fmt.Println(functions.Factorial(200))
-	arrays_slices.ShowSlice()
-	arrays_slices.CapacitySlice()
+	maps.ShowMaps()
 }
