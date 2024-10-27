@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"go.mod/functions"
+	"go.mod/arrays_slices"
 )
 
 func main() {
@@ -21,5 +19,7 @@ func main() {
 	// files.AddDataToFile(text)
 
 	// files.ReadFile()
-	fmt.Println(functions.Factorial(200))
+	// fmt.Println(functions.Factorial(200))
+	arrays_slices.ShowSlice()
+	arrays_slices.CapacitySlice()
 }
