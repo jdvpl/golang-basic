@@ -1,6 +1,6 @@
 package main
 
-import "go.mod/maps"
+import "go.mod/users"
 
 func main() {
 	// variables.ShowIntegers()
@@ -18,5 +18,6 @@ func main() {
 
 	// files.ReadFile()
 	// fmt.Println(functions.Factorial(200))
-	maps.ShowMaps()
+	// maps.ShowMaps()
+	users.ShowUsers()
 }
