@@ -1,9 +1,6 @@
 package main
 
-import (
-	"go.mod/excersices"
-	"go.mod/files"
-)
+import "go.mod/functions"
 
 func main() {
 	// variables.ShowIntegers()
@@ -16,8 +13,9 @@ func main() {
 	// number, text := excersices.ConvertToNumber("110")
 	// fmt.Println(number, text)
 	// scannindata.GetingDataFromKeyboard()
-	text := excersices.TableMultiplication()
-	files.AddDataToFile(text)
+	// text := excersices.TableMultiplication()
+	// files.AddDataToFile(text)
 
-	files.ReadFile()
+	// files.ReadFile()
+	functions.CallClosure()
 }
