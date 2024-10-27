@@ -1,6 +1,9 @@
 package main
 
-import "go.mod/users"
+import (
+	"go.mod/implementation"
+	"go.mod/models"
+)
 
 func main() {
 	// variables.ShowIntegers()
@@ -19,5 +22,9 @@ func main() {
 	// files.ReadFile()
 	// fmt.Println(functions.Factorial(200))
 	// maps.ShowMaps()
-	users.ShowUsers()
+	// users.ShowUsers()
+	Juan := new(models.Man)
+	Gina := new(models.Woman)
+	implementation.HumanBreathing(Juan, "Juan")
+	implementation.HumanBreathing(Gina, "Gina")
 }
