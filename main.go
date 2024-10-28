@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go.mod/goroutines"
+	webserver "go.mod/webServer"
 )
 
 func main() {
@@ -27,9 +27,9 @@ func main() {
 	// implementation.HumanBreathing(Juan, "Juan")
 	// implementation.HumanBreathing(Gina, "Gina")
 	// deferPanicRecover.ShowPanic()
-	channel1 := make(chan bool)
-	go goroutines.SlowName("Juan Daniel", channel1)
-	defer func() { <-channel1 }()
-	goroutines.ShowGoroutines()
-
+	// channel1 := make(chan bool)
+	// go goroutines.SlowName("Juan Daniel", channel1)
+	// defer func() { <-channel1 }()
+	// goroutines.ShowGoroutines()
+	webserver.StartWebServer()
 }
