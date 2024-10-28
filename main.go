@@ -1,7 +1,7 @@
 package main
 
 import (
-	webserver "go.mod/webServer"
+	"go.mod/middlewares"
 )
 
 func main() {
@@ -31,5 +31,6 @@ func main() {
 	// go goroutines.SlowName("Juan Daniel", channel1)
 	// defer func() { <-channel1 }()
 	// goroutines.ShowGoroutines()
-	webserver.StartWebServer()
+	// webserver.StartWebServer()
+	middlewares.CustomMiddleware()
 }
