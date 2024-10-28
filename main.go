@@ -1,6 +1,8 @@
 package main
 
-import "go.mod/deferPanicRecover"
+import (
+	"go.mod/goroutines"
+)
 
 func main() {
 	// variables.ShowIntegers()
@@ -24,5 +26,7 @@ func main() {
 	// Gina := new(models.Woman)
 	// implementation.HumanBreathing(Juan, "Juan")
 	// implementation.HumanBreathing(Gina, "Gina")
-	deferPanicRecover.ShowPanic()
+	// deferPanicRecover.ShowPanic()
+	go goroutines.SlowName("Juan Daniel")
+	goroutines.ShowGoroutines()
 }
