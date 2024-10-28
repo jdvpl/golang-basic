@@ -1,9 +1,6 @@
 package main
 
-import (
-	"go.mod/implementation"
-	"go.mod/models"
-)
+import "go.mod/deferPanicRecover"
 
 func main() {
 	// variables.ShowIntegers()
@@ -23,8 +20,9 @@ func main() {
 	// fmt.Println(functions.Factorial(200))
 	// maps.ShowMaps()
 	// users.ShowUsers()
-	Juan := new(models.Man)
-	Gina := new(models.Woman)
-	implementation.HumanBreathing(Juan, "Juan")
-	implementation.HumanBreathing(Gina, "Gina")
+	// Juan := new(models.Man)
+	// Gina := new(models.Woman)
+	// implementation.HumanBreathing(Juan, "Juan")
+	// implementation.HumanBreathing(Gina, "Gina")
+	deferPanicRecover.ShowPanic()
 }
