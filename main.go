@@ -27,6 +27,9 @@ func main() {
 	// implementation.HumanBreathing(Juan, "Juan")
 	// implementation.HumanBreathing(Gina, "Gina")
 	// deferPanicRecover.ShowPanic()
-	go goroutines.SlowName("Juan Daniel")
+	channel1 := make(chan bool)
+	go goroutines.SlowName("Juan Daniel", channel1)
+	defer func() { <-channel1 }()
 	goroutines.ShowGoroutines()
+
 }
